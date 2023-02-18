@@ -8,14 +8,14 @@ int main(void)
 	long int e;
 	long long int g;
 
-		printf("The size of an int: %lu.\n" sizeof(i));
-		printf("The size of a char: %lu.\n" sizeof(c));
-		printf("The size of a flaot: %lu.\n" sizeof(f));
-		printf("The size of a double: %lu.\n" sizeof(d));
-		printf("The size of a long int: %lu.\n" sizeof(e));
-		printf("The size of a long long int: %lu.\n" sizeof(g));
+		printf("The size of an int:\n"); sizeof(i);
+		printf("The size of a char:\n"); sizeof(c);
+		printf("The size of a flaot:\n"); sizeof(f);
+		printf("The size of a double:\n"); sizeof(d);
+		printf("The size of a long int:\n"); sizeof(e);
+		printf("The size of a long long int:\n"); sizeof(g);
 
-		return(0);
+		return (0);
 }
 /*
  * main - entry point
