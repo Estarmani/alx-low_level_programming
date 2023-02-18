@@ -8,7 +8,7 @@ int main(void)
 	long int e;
 	long long int g;
 
-		printf("The size of an int:\n"); sizeof(i);
+		printf("The size of an int: %lu.\n"), (unsigned long) sizeof(i);
 		printf("The size of a char:\n"); sizeof(c);
 		printf("The size of a flaot:\n"); sizeof(f);
 		printf("The size of a double:\n"); sizeof(d);
@@ -17,8 +17,3 @@ int main(void)
 
 		return (0);
 }
-/*
- * main - entry point
- * This code will display the different variable sizes of my computer
- * return - always 0 (success)
-*/
