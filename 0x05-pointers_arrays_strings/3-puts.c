@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdout>
 /**
  * _puts - prints a sting, followed by a new line
  */
 void _puts(char *str)
 {
-	while (*str != '\0');
+	while (*str != '\0')
 	{
 		_putchar(*str++);
 	}
